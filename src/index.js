@@ -130,7 +130,7 @@ export default class extends Component {
       frameBorder: '0',
       seamless: true,
       onLoad,
-      is:"x-frame-bypass"
+      is: bypass ? "x-frame-bypass" : ""
     });
   }
 }
